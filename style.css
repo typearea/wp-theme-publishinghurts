@@ -1,0 +1,113 @@
+/**  
+ * Theme Name: Publishing Hurts
+ * Description: Theme for publishinghurts.de
+ * Version: 1.0.0
+ * Author: Michael Giesler
+ * Author URI: http://github.com/michaelgiesler  
+ * Template: the-go-green-theme
+*/
+
+body {
+	background-color: #aababf;
+}
+
+#page {
+    margin: 0 auto;
+    width: 1060px;
+}
+
+#header{
+	background-color: #aababf;
+
+}
+
+#hdrContainer {
+    margin: 0 auto;
+    width: 940px;
+}
+
+#hdrLeft {
+    background: rgba(0, 0, 0, 0) url("images/publishing_hurts_schwarz_klein.png") no-repeat scroll 0 0;
+    height: 178px;
+    text-align: left;
+    width: 1060px;
+}
+
+#hdrRight {
+	width: 1060px;
+	padding: 0;
+	height: 30px;
+}
+
+#hdrRight li {
+	font-size: 22px;
+}
+
+#hdrRight a {
+	color: black;
+}
+
+#hdrLeft > * {
+	display:none;
+}
+
+#content {
+    float: left;
+    margin-right: 0;
+    text-align: left;
+    width: 610px;
+}
+
+.post {
+    background-color: #fff;
+    border: 2px solid #000;
+    clear: both;
+    margin: 0 0 20px;
+    width: 598px;
+}
+
+.postdate {
+	background-color: #fff;
+	color: #888888;
+    font-size: 13px;
+    text-align: right;
+}
+
+div.post h2, div.post h3 {
+    color: #000;
+    font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+div.post h2 a:link, div.post h3 a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+#sidebar-1 > ul > li {
+	background-color: #fff;
+	border: 2px solid #000;
+	margin-bottom: 20px;
+}
+
+#sidebar-1 h2 {
+	background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 20px;
+}
+
+input#s {
+    border: 1px solid black;
+    margin: 0 0 10px 5px;
+    padding: 3px;
+    width: 140px;
+}
+
+input#searchsubmit {
+    border: 1px solid black;
+    font-family: Arial,Verdana,sans-serif;
+    padding: 3px;
+}
