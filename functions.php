@@ -11,3 +11,21 @@ function theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+
+register_sidebar(array(
+    'name' => 'Sidebar rechts innen',
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => '</h2>',
+));
+
+
+register_sidebar(array(
+    'name' => 'Sidebar rechts aussen',
+    'before_widget' => '<li id="%1$s" class="widget %2$s">',
+    'after_widget' => '</li>',
+    'before_title' => '<h2 class="widgettitle">',
+    'after_title' => '</h2>',
+));
+

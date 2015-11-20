@@ -11,6 +11,10 @@ body {
 	background-color: #aababf;
 }
 
+#container {
+	width: 1060px;
+}
+
 #page {
     margin: 0 auto;
     width: 1060px;
@@ -23,7 +27,7 @@ body {
 
 #hdrContainer {
     margin: 0 auto;
-    width: 940px;
+    width: 1060px;
 }
 
 #hdrLeft {
@@ -85,13 +89,13 @@ div.post h2 a:link, div.post h3 a:link {
     text-decoration: none;
 }
 
-#sidebar-1 > ul > li {
+#sidebar-1 > ul > li, #sidebar-2 > ul > li {
 	background-color: #fff;
 	border: 2px solid #000;
 	margin-bottom: 20px;
 }
 
-#sidebar-1 h2 {
+#sidebar-1 h2, #sidebar-2 h2 {
 	background-color: #fff;
     color: #000;
     font-size: 20px;
@@ -110,4 +114,24 @@ input#searchsubmit {
     border: 1px solid black;
     font-family: Arial,Verdana,sans-serif;
     padding: 3px;
+}
+
+#sidebar-1 {
+    float: left;
+    font-size: 16px;
+    margin-right: 9px;
+    text-align: left;
+    width: 220px;
+}
+
+#sidebar-2 {
+    float: left;
+    font-size: 16px;
+    text-align: left;
+    width: 220px;
+}
+
+#sidebar-1 a:link, #sidebar-2 a:link {
+    color: #4c6a91;
+    text-decoration: none;
 }
