@@ -9,6 +9,9 @@
 
 body {
 	background-color: #aababf;
+	font-family: "Crimson Text",serif;
+	font-size: 16px;
+	color: #000;
 }
 
 #container {
@@ -49,6 +52,8 @@ body {
 
 #hdrRight a {
 	color: black;
+	font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
+
 }
 
 #hdrLeft > * {
@@ -101,6 +106,7 @@ div.post h2 a:link, div.post h3 a:link {
     font-size: 20px;
     font-weight: bold;
     padding: 8px 20px;
+	font-family: Arial,Helvetica,"Nimbus Sans L",sans-serif;
 }
 
 input#s {
@@ -134,4 +140,34 @@ input#searchsubmit {
 #sidebar-1 a:link, #sidebar-2 a:link {
     color: #4c6a91;
     text-decoration: none;
+}
+
+.widget li {
+	padding: 10px;
+}
+
+a:link {
+    color: #4c6a91;
+}
+
+#footer {
+    background-color: #aababf;
+    height: 50px;
+}
+
+#footer ul {
+    margin: 0 214px;
+    text-align: left;
+}
+
+#footer li {
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 20px 0 0;
+}
+
+#footer a {
+    color: #000;
+    text-decoration: underline;
 }

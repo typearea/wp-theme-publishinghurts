@@ -29,3 +29,12 @@ register_sidebar(array(
     'after_title' => '</h2>',
 ));
 
+
+add_action('wp_head','hook_css');
+
+function hook_css() {
+
+	$output="<link href='http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700' rel='stylesheet' type='text/css'>";
+
+	echo $output;
+}
