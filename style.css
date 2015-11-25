@@ -89,7 +89,7 @@ div.post h2, div.post h3 {
     padding: 10px 20px;
 }
 
-div.post h2 a:link, div.post h3 a:link {
+div.post h2 a, div.post h3 a {
     color: #000;
     text-decoration: none;
 }
@@ -137,7 +137,7 @@ input#searchsubmit {
     width: 220px;
 }
 
-#sidebar-1 a:link, #sidebar-2 a:link {
+#sidebar-1 a, #sidebar-2 a {
     color: #4c6a91;
     text-decoration: none;
 }
