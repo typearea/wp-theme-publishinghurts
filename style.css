@@ -171,3 +171,7 @@ a:link {
     color: #000;
     text-decoration: underline;
 }
+
+#sidebar-1 ul li ul li, #sidebar-1 ul li ul {
+    border: 0;
+}
